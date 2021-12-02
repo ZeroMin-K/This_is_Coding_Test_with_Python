@@ -42,7 +42,7 @@ dijkstra(start)
 count = 0
 # 도달 할 수 있는 노드중 가장 멀리 있는 노드 최단거리
 max_distance = 0
-for d in distance = 0:
+for d in distance:
     # 도달할 수 있는 노드의 경우
     if d != INF:
         count += 1
