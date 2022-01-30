@@ -4,6 +4,7 @@ graph = []
 for i in range(n):
     graph.append(list(map(int, input())))
 
+# DFS로 특정한 노드를 방문한 뒤 연결된 모든 노드들도 방무누
 def dfs(x, y):
     # 주어진 범위를 벗어나는 경우 즉시 종료 
     if x <= -1 or x >= n or y <= -1 or y >= m:
