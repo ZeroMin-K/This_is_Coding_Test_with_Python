@@ -5,8 +5,10 @@ v = int(input())
 indegree = [0] * (v+1)
 graph = [[] for i in range(v+1)]
 
+# 각 강의시간 0으로 초기화 
 time = [0] * (v+1)
 
+# 방향 그래프 모든 간선정보 입력 
 for i in range(1, v+1):
     data = list(map(int, input().split()))
     time[i] = data[0]       # 첫번째 수는 시간 정보
