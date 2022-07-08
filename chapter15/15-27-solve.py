@@ -10,4 +10,4 @@ count = right - left
 if count:
     print(count)
 else:
-    print(-1)
+    print(-1)  
